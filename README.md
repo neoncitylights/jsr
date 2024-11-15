@@ -26,10 +26,11 @@ or real name, whichever you prefer.
  - [`./.github/workflows/publish.yml`](./.github/workflows/publish.yml): Uncomment out the top so that the workflow will publish your package every time there's a commit pushed to `main` branch.
 
 ## Basic commands to know
+- `deno fmt`: Format files
 - `deno lint`: Lint files
 - `deno lint --fix`: Auto-apply lint fixes where possible
-- `deno fmt`: Auto-format files
 - `deno test`: Run unit tests
+- `deno check`: Type-check code without executing
 - `deno doc --lint`: Lint the JSDoc in your source code before publishing
 - `deno doc --html ./src/mod.ts`: Generate HTML documentation from the entrypoint
 
