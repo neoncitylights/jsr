@@ -9,13 +9,14 @@ relatively zero-config startup.
 First, create a new repository. Choose your method:
 
 - **GitHub UI**:
-  [Click here](https://https://github.com/new?template_name=jsr&template_owner=neoncitylights)
+  [Click here](https://github.com/new?template_name=jsr&template_owner=neoncitylights)
   to use this template. (Or, you can either press "Use this template" button in
   the right-corner of this page)
 - **GitHub CLI**:
   ```shell
-  gh repo create --template neoncitylights/jsr --public --clone {{repository}} # clone as public
-  gh repo create --template neoncitylights/jsr --private --clone {repository}} # clone as private
+  # create a public or private repository from the template
+  gh repo create --template neoncitylights/jsr --public --clone {{repository}}
+  gh repo create --template neoncitylights/jsr --private --clone {{repository}}
   ```
 
 Then, in the [`LICENSE`](./LICENSE) file, change `{{author}}` to your username
