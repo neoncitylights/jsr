@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Linguist overrides
+# - Don't show Dockerfile in Linguist stats
+# - Recognize deno.lock as a JSON file
+# https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
+Dockerfile -linguist-detectable
+deno.json linguist-language=JSON
