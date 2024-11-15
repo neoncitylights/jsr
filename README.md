@@ -19,8 +19,11 @@ First, create a new repository. Choose your method:
   gh repo create --template neoncitylights/jsr --private --clone {{repository}}
   ```
 
-Then, in the [`LICENSE`](./LICENSE) file, change `{{author}}` to your username
+Then, make sure to replace the following placeholders:
+ - [`./LICENSE`](./LICENSE): change `{{author}}` to your username
 or real name, whichever you prefer.
+ - [`./deno.json`](./deno.json): change the package name to your own.
+ - [`./github/workflows/publish.yml`](./github/workflows/publish.yml): Uncomment out the top so that the workflow will publish your package every time there's a commit pushed to `main` branch.
 
 ## License
 
