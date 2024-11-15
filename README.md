@@ -29,9 +29,15 @@ or real name, whichever you prefer.
 - `deno lint`: Lint files
 - `deno lint --fix`: Auto-apply lint fixes where possible
 - `deno fmt`: Auto-format files
-- `deno doc --html ./src/mod.ts`: Generate HTML documentation from the entrypoint
-- `deno doc lint`: Lint the JSDoc in your source code before publishing
 - `deno test`: Run unit tests
+- `deno doc --lint`: Lint the JSDoc in your source code before publishing
+- `deno doc --html ./src/mod.ts`: Generate HTML documentation from the entrypoint
+
+## Further reading
+- [JSR documentation](https://jsr.io/docs/)
+- [`deno.json` documentation reference](https://docs.deno.com/runtime/fundamentals/configuration/
+)
+- [Deno CLI subcommands reference](https://docs.deno.com/runtime/reference/cli/)
 
 ## License
 
