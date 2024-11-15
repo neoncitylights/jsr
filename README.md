@@ -19,11 +19,19 @@ First, create a new repository. Choose your method:
   gh repo create --template neoncitylights/jsr --private --clone {{repository}}
   ```
 
-Then, make sure to replace the following placeholders:
+Then, make sure to update the following:
  - [`./LICENSE`](./LICENSE): change `{{author}}` to your username
 or real name, whichever you prefer.
  - [`./deno.json`](./deno.json): change the package name to your own.
- - [`./github/workflows/publish.yml`](./github/workflows/publish.yml): Uncomment out the top so that the workflow will publish your package every time there's a commit pushed to `main` branch.
+ - [`./.github/workflows/publish.yml`](./.github/workflows/publish.yml): Uncomment out the top so that the workflow will publish your package every time there's a commit pushed to `main` branch.
+
+## Basic commands to know
+- `deno lint`: Lint files
+- `deno lint --fix`: Auto-apply lint fixes where possible
+- `deno fmt`: Auto-format files
+- `deno doc --html ./src/mod.ts`: Generate HTML documentation from the entrypoint
+- `deno doc lint`: Lint the JSDoc in your source code before publishing
+- `deno test`: Run unit tests
 
 ## License
 
