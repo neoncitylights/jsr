@@ -23,7 +23,7 @@ Then, make sure to update the following:
 or real name, whichever you prefer.
  - [`./deno.json`](./deno.json): change the package name to your own.
  - [`./.github/workflows/publish.yml`](./.github/workflows/publish.yml): Uncomment out the top so that the workflow will publish your package every time there's a commit pushed to `main` branch.
- - Delete this `README.md` file, and rename `LIBRARY.md` to `README.md`, and update with your own information.
+ - Delete this `README.md` file, rename `LIBRARY.md` to `README.md`, and update with your own information.
 
 ## Basic commands to know
 - `deno fmt`: Format files

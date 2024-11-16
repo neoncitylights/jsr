@@ -1,6 +1,6 @@
 # @example/package
 
-A simple description of this library.
+A description of this library.
 
 ## Install
 ```shell
