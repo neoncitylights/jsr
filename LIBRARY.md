@@ -3,7 +3,7 @@
 A simple description of this library.
 
 ## Install
-```npx
+```shell
 deno add jsr:@example/package  # deno
 npx jsr add @example/package   # npm
 ```
