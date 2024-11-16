@@ -1,7 +1,7 @@
 # TypeScript package with JSR
 
 This repository template allows writing TypeScript packages in pure ESM, and
-publishing them to the JSR registry. It provides some default settings for a
+publishing them to the [JSR registry](https://jsr.io). It provides some default settings for a
 relatively zero-config startup.
 
 ## Getting started
@@ -10,8 +10,7 @@ First, create a new repository. Choose your method:
 
 - **GitHub UI**:
   [Click here](https://github.com/new?template_name=jsr&template_owner=neoncitylights)
-  to use this template. (Or, you can either press "Use this template" button in
-  the right-corner of this page)
+  to use this template. (Or, press "Use this template" button in the top-right corner)
 - **GitHub CLI**:
   ```shell
   # create a public or private repository from the template
@@ -24,6 +23,7 @@ Then, make sure to update the following:
 or real name, whichever you prefer.
  - [`./deno.json`](./deno.json): change the package name to your own.
  - [`./.github/workflows/publish.yml`](./.github/workflows/publish.yml): Uncomment out the top so that the workflow will publish your package every time there's a commit pushed to `main` branch.
+ - Delete this `README.md` file, rename `LIBRARY.md` to `README.md`, and update with your own information.
 
 ## Basic commands to know
 - `deno fmt`: Format files
