@@ -30,7 +30,7 @@ or real name, whichever you prefer.
 - `deno test`: Run unit tests
 - `deno check`: Type-check code without executing
 - `deno doc --lint`: Lint the JSDoc in your source code before publishing
-- `deno doc --html ./src`: Generate HTML documentation from the entrypoint
+- `deno task doc`: Generate HTML documentation from the entrypoint
 
 ## Further reading
 - [JSR documentation](https://jsr.io/docs/)

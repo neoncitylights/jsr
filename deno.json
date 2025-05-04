@@ -3,7 +3,8 @@
 	"version": "0.1.0",
 	"license": "MIT",
 	"tasks": {
-		"dev": "deno test --watch"
+		"dev": "deno test --watch",
+		"doc": "deno doc --html ./src"
 	},
 	"publish": {
 		"include": [
