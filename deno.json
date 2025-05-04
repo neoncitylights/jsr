@@ -3,11 +3,12 @@
 	"version": "0.1.0",
 	"license": "MIT",
 	"tasks": {
-		"dev": "deno test --watch src/mod.ts"
+		"dev": "deno test --watch"
 	},
 	"publish": {
 		"include": [
 			"src/",
+			"!src/**/*_test.ts",
 			"README.md",
 			"LICENSE"
 		]
@@ -20,13 +21,17 @@
 		"@std/testing": "jsr:@std/testing@^1.0.5"
 	},
 	"fmt": {
-		"include": ["src/"],
+		"include": [
+			"src/"
+		],
 		"useTabs": true,
 		"semiColons": false,
 		"singleQuote": true,
 		"indentWidth": 4
 	},
 	"lint": {
-		"include": ["src/"]
+		"include": [
+			"src/"
+		]
 	}
 }
