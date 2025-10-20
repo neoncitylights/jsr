@@ -50,5 +50,5 @@ jobs:
         uses: denoland/setup-deno@v2
         with:
             deno-version: v2.x
-      - name: Check ${{ matrix.job-check }}
+      - name: Check ${{ matrix.job-step }}
         run: ${{ matrix.cmd }}
